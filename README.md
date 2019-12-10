@@ -32,7 +32,7 @@ docker-compose version 1.17.1, go version go1.13.3 , npm (v5.6.0), node.js (v8.1
 ```
 ./error_test.sh
 ```
-Dont forget to stop:
+# Dont forget to stop:
 ```
 ./stop.sh
 ```
