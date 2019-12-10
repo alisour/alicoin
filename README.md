@@ -1,10 +1,10 @@
 ### voteapp
-# Simple voting chaincode implementation of hyperledger fabric in go
+** Simple voting chaincode implementation of hyperledger fabric in go
 
 
 ### MY TOOLS
 
-**linux/amd64, Hyperledger Fabirc (v1.4.4), Docker version 18.09.7, docker-compose version 1.17.1, go version go1.13.3 , npm (v5.6.0), node.js (v8.10.0)
+** linux/amd64, Hyperledger Fabirc (v1.4.4), Docker version 18.09.7, docker-compose version 1.17.1, go version go1.13.3 , npm (v5.6.0), node.js (v8.10.0)
 
 ### HOW TO UP THE NETWORK AND INSTALL CHAINCODE
 
