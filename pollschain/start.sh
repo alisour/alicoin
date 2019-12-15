@@ -1,8 +1,8 @@
 echo "*****CLEAN THE NETWORK*****"
-docker-compose -f docker-compose-cli.yaml down --volumes
+docker-compose -f docker-compose-cli.yaml -f docker-compose-couch.yaml down --volumes
 
 echo "*****INIT THE NETWORK*****"
-docker-compose -f docker-compose-cli.yaml up -d
+docker-compose -f docker-compose-cli.yaml -f docker-compose-couch.yaml up -d
 sleep .5s 
 
 echo "*****CREATE CHANNEL*****"
