@@ -6,6 +6,8 @@ docker-compose v1.17.1, go v1.13.3 , npm v5.6.0, node.js v8.10.0.
 
 # HOW TO UP THE NETWORK AND INSTALL CHAINCODE
 
+You can delete all files inside channel-artifacts before starting.
+
 Firstly,open bash in "pollschain" directory and put command below to create certificates for network:
 
 ```
