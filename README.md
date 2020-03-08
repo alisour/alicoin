@@ -21,15 +21,15 @@ Firstly,open bash in "pollschain" directory and put command below to create cert
 
 Afterwards, to test functions of the chaincode firstly put this command below:
 ```
-./init_candidate.sh
+./scripts/init_candidate.sh
 ```
  And this:
 ```
-./init-vote.sh
+./scripts/init-vote.sh
 ```
 Finally push the same commands and one more error command with this and see what happens:
 ```
-./error_test.sh
+./scripts/error_test.sh
 ```
  Dont forget to stop:
 ```
