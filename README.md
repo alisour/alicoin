@@ -25,7 +25,7 @@ Afterwards, to test functions of the chaincode firstly put this command below:
 ```
  And this:
 ```
-./scripts/init-vote.sh
+./scripts/init_vote.sh
 ```
 Finally push the same commands and one more error command with this and see what happens:
 ```
